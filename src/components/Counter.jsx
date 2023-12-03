@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react"
 import "./Counter.css"
 function Counter() {
     //Check LocalStorage
-    let checker = 0
-    if (localStorage.getItem("counter") !== 0) {
-        checker = localStorage.getItem("counter")
-    }
+    let checker =
+        localStorage.getItem("counter") !== 0 &&
+        localStorage.getItem("counter") !== null
+            ? localStorage.getItem("counter")
+            : 0
 
     //Counter
     const [counter, setCounter] = useState(checker)
