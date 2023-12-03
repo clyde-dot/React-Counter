@@ -1,4 +1,6 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Welcome+to+my+mini+project+counter" alt="Typing SVG" /></a>
+## Project Window
+![Screenshot_1](https://github.com/clyde-dot/react-counter/assets/79924534/2e3b2cc2-345f-406b-b912-51c2fc376c22)
 
 # Getting Started with Create React App
 
